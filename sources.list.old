@@ -43,10 +43,10 @@ deb http://repo.huaweicloud.com/ubuntu/ focal-backports main restricted universe
 # deb http://archive.canonical.com/ubuntu focal partner
 # deb-src http://archive.canonical.com/ubuntu focal partner
 
-# deb http://repo.huaweicloud.com/ubuntu focal-security main restricted
+deb http://repo.huaweicloud.com/ubuntu focal-security main restricted
 # deb-src http://repo.huaweicloud.com/ubuntu focal-security main restricted
-# deb http://repo.huaweicloud.com/ubuntu focal-security universe
+deb http://repo.huaweicloud.com/ubuntu focal-security universe
 # deb-src http://repo.huaweicloud.com/ubuntu focal-security universe
-# deb http://repo.huaweicloud.com/ubuntu focal-security multiverse
+deb http://repo.huaweicloud.com/ubuntu focal-security multiverse
 # deb-src http://repo.huaweicloud.com/ubuntu focal-security multiverse
 

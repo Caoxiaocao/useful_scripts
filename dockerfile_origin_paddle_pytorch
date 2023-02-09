@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
 	ln -s /usr/bin/pip3 /usr/bin/pip && \
 	pip install -U pip && \
 	pip install --no-cache-dir \
+                torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html && \
+	pip install --no-cache-dir \
 		paddlepaddle==2.3.2 && \
 	pip install --no-cache-dir \
 		opencv-python==4.6.0.66 pymupdf==1.18.14 pandas==1.5.2 && \
